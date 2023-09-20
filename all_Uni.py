@@ -42,6 +42,7 @@ df["description"] = df["description"].map(htmlparser)
 with open("src/data/events.json", "w") as file:
     unformatted = json.loads(df.to_json(orient="table"))
     json.dump(unformatted, file, indent=4, sort_keys=True)
+    
 
 
 
