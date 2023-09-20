@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  var textArray = ['nyu', 'rutgers', 'njit']
+  const randomIndex = Math.floor(Math.random() * textArray.length); 
+  const randomElement = textArray[randomIndex];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          what i be doin
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello {randomElement}</h1>
     </div>
   );
 }
