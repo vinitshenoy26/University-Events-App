@@ -1,18 +1,21 @@
 import React from 'react'
 
 
-const EventCard = ( {event1} ) => {
+const EventCard = ( {event} ) => {
 
 return(
     <div className="event_card">
         <div>
-            <p>{event1.name}</p>
+            <p>{event.name}</p>
         </div>
         <div>
-            <img src={event1.imagePath} alt={event1.name}></img>
+            <img src={event.imagePath} alt={event.name}></img>
         </div>
         <div>
-            <p>{event1.description}</p>
+            <p>{event.description}</p>
+        </div>
+        <div>
+            <p>{event.startsOn} - {event.endsOn}</p>
         </div>
     </div>
     )   
