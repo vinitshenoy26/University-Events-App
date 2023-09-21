@@ -1,11 +1,15 @@
 import json
+import re
 from datetime import datetime
 
 import pandas as pd
 import pytz
 import requests
 from bs4 import BeautifulSoup
+from tqdm import tqdm
 
+newlist = []
+university_abbr_name = {}
 edt_timezone = pytz.timezone("America/New_York")
 
 def get_time():
@@ -44,6 +48,28 @@ df["imagePath"] = [default_background if img is None else f"https://se-images.ca
 with open("src/data/data.json", "w") as file:
     unformatted = json.loads(df.to_json(orient="table"))
     json.dump(unformatted, file, indent=4, sort_keys=True)
+
+
+with open('all_universities.txt', 'r') as file:
+    for line in file:
+        newlist.append(line.strip())
+
+
+for uni in tqdm(newlist):
+    url = f"https://{uni}.campuslabs.com/engage/globalcontext"
+    response = requests.request("GET", url).text
+    match = re.search(r'"name":\s*"([^"]+)"', response)
+    if match:
+        name = match.group(1)
+        university_abbr_name[name] = uni
+    else:
+        print(uni + " not found in JavaScript code.")
+
+
+with open('./src/data/uni_abbr.json', "w") as json_file:
+    json.dump(university_abbr_name, json_file, indent=4)
+
+
 
 
 

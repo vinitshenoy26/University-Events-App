@@ -1,11 +1,9 @@
 import './App.css';
 import events_list from './data/data.json'
-import {useState} from 'react';
 import EventCard from './EventCard';
+import Dropdown from './Dropdown';
 
 function App() {
-
-  const [events, setEvents] = useState(); 
 
   const uni_name = 'Rutgers'
   
@@ -13,8 +11,8 @@ function App() {
     <div className="App">
       <h1 className="header">{uni_name} Events</h1>
 
-      <div>
-        <p className="dropdown">hey</p>
+      <div className='dropdown-uni'>
+        <Dropdown />
       </div>
 
       {
