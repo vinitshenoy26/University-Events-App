@@ -23,7 +23,7 @@ def htmlparser(input: str) -> str:
     return soup
 
 today = get_time()
-university_name = 'njit'
+university_name = 'rutgers'
 
 url = f"https://{university_name}.campuslabs.com/engage/api/discovery/event/search?endsAfter={today}&orderByField=endsOn&orderByDirection=ascending&status=Approved&take=1000"
 response = requests.request("GET", url,).json()
@@ -37,12 +37,14 @@ df['startsOn'] = df['startsOn'].dt.strftime('%m/%d/%Y %I:%M %p')
 df['endsOn'] = pd.to_datetime(df['endsOn']).dt.tz_convert('America/New_York')
 df['endsOn'] = df['endsOn'].dt.strftime('%m/%d/%Y %I:%M %p')
 df["description"] = df["description"].map(htmlparser)
+default_background = "https://via.placeholder.com/400"
+df["imagePath"] = [default_background if img is None else f"https://se-images.campuslabs.com/clink/images/{str(img)}" for img in df["imagePath"]]
 
 
-with open("src/data/events.json", "w") as file:
+with open("src/data/data.json", "w") as file:
     unformatted = json.loads(df.to_json(orient="table"))
     json.dump(unformatted, file, indent=4, sort_keys=True)
-    
+
 
 
 
