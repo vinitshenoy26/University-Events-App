@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 newlist = []
-university_abbr_name = {}
+university_abbr_name = []
 edt_timezone = pytz.timezone("America/New_York")
 
 def get_time():
@@ -27,7 +27,7 @@ def htmlparser(input: str) -> str:
     return soup
 
 today = get_time()
-university_name = 'rutgers'
+university_name = 'nyu'
 
 url = f"https://{university_name}.campuslabs.com/engage/api/discovery/event/search?endsAfter={today}&orderByField=endsOn&orderByDirection=ascending&status=Approved&take=1000"
 response = requests.request("GET", url,).json()
@@ -55,13 +55,15 @@ with open('all_universities.txt', 'r') as file:
         newlist.append(line.strip())
 
 
+print(newlist)
+
 for uni in tqdm(newlist):
     url = f"https://{uni}.campuslabs.com/engage/globalcontext"
     response = requests.request("GET", url).text
     match = re.search(r'"name":\s*"([^"]+)"', response)
     if match:
         name = match.group(1)
-        university_abbr_name[name] = uni
+        university_abbr_name.append({'uni':uni, 'name':name})
     else:
         print(uni + " not found in JavaScript code.")
 

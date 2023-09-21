@@ -1,246 +1,982 @@
-{
-    "Anne Arundel Community College": "aacc",
-    "University at Albany": "albany",
-    "Albion College": "albion",
-    "Alfred University": "alfred",
-    "American University": "american",
-    "Amherst College": "amherst",
-    "Andrews University": "andrews",
-    "Appalachian State University": "appstate",
-    "Austin Peay State University": "peaylink",
-    "University of Arizona": "arizona",
-    "Ashland University": "ashland",
-    "Arizona State University": "asu",
-    "A. T. Still University - Arizona": "atsu",
-    "Auburn University Main Campus": "auburn",
-    "The University of Auckland": "auckland",
-    "Augustana University": "augie",
-    "Augsburg College": "augsburg",
-    "Aurora University": "aurora",
-    "Ave Maria School of Law": "avemarialaw",
-    "Baylor University": "baylor",
-    "Boston College": "bc",
-    "Penn State Behrend": "behrend",
-    "Belmont University": "belmont",
-    "Bryant University": "bryant",
-    "Boston University": "bu",
-    "Bucknell University": "bucknell",
-    "SUNY University at Buffalo": "buffalo",
-    "Butte College": "butte",
-    "California State Polytechnic University - Pomona": "calpolypomona",
-    "Central Connecticut State University": "ccsu",
-    "Centenary College of Louisiana": "centenary",
-    "Cerritos College": "cerritos",
-    "Maricopa Community Colleges - Chandler-Gilbert Community College": "cgc",
-    "Clarke University": "clarke",
-    "Clarkson University": "clarkson",
-    "Clemson University": "clemson",
-    "Christopher Newport University": "cnu",
-    "SUNY College of Agriculture and Technology at Cobleskill": "cobleskill",
-    "College of Charleston": "cofc",
-    "Colgate University": "colgate",
-    "Collin College": "collin",
-    "Columbus State University": "columbusstate",
-    "SUNY Cortland": "cortland",
-    "Creighton University": "creighton",
-    "CUNY College of Staten Island": "csi",
-    "California State University - Chico": "csuchico",
-    "California State University - Long Beach": "csulb",
-    "CUNY Brooklyn College": "cunybrooklyn",
-    "Davidson College": "davidson",
-    "DePauw University": "depauw",
-    "DeSales University": "desales",
-    "Dickinson College": "dickinson",
-    "Duquesne University": "duq",
-    "Diablo Valley College": "dvc",
-    "Elmhurst College": "elmhurst",
-    "Elon University": "elon",
-    "Emory University": "emory",
-    "East Tennessee State University": "etsu",
-    "Fairfield University": "fairfield",
-    "SUNY at Farmingdale": "farmingdale",
-    "Florida Atlantic University": "fau",
-    "Florida Gulf Coast University": "fgcu",
-    "OSU Fisher College of Business": "fisherosu",
-    "Fitchburg State University": "fitchburgstate",
-    "Fashion Institute of Technology": "fitnyc",
-    "Florida International University": "fiu",
-    "Florida Polytechnic University": "floridapoly",
-    "Florida Institute of Technology-Melbourne": "floridatech",
-    "Florida Southern College": "flsouthern",
-    "Florida State University": "fsu",
-    "Furman University": "furman",
-    "Georgia Institute of Technology - Main Campus": "gatech",
-    "Georgia College": "gcsu",
-    "Germanna Community College": "germanna",
-    "Gonzaga University": "gonzaga",
-    "Grand Rapids Community College": "grcc",
-    "Harvard School of Design": "gsd",
-    "Grand Valley State University": "gvsu",
-    "George Washington University": "gwu",
-    "Hampshire College": "hampshire",
-    "Harvard - Graduate School of Arts and Sciences": "harvardgsas",
-    "Hamad Bin Khalifa University": "hbku",
-    "Heartland Community College": "heartland",
-    "Harvard Kennedy School": "hks",
-    "The Hong Kong University of Science and Technology": "hkust",
-    "Hood College": "hood",
-    "Howard University": "howard",
-    "Illinois State University": "illinoisstate",
-    "Indiana Institute of Technology": "indianatech",
-    "Ithaca College": "ithaca",
-    "Indiana University East": "iue",
-    "Indiana University Kokomo": "iuk",
-    "Indiana University-Purdue University Indianapolis": "iupui",
-    "Indiana University South Bend": "iusb",
-    "Johnson County Community College": "jccc",
-    "University of Central Florida": "knightconnect",
-    "University of Kansas": "ku",
-    "University of Kansas Medical Campus": "kumc",
-    "Kutztown University of Pennsylvania": "kutztown",
-    "Lake Forest College": "lakeforest",
-    "Lehigh University": "lehigh",
-    "CUNY Lehman College": "lehman",
-    "Logan University": "logan",
-    "University of Louisville": "louisville",
-    "Loyola University New Orleans": "loyno",
-    "Loyola University of Chicago": "luc",
-    "Maryville University of Saint Louis": "maryville",
-    "Milwaukee Area Technical College": "matc",
-    "The University of Texas at Arlington": "mavorgs",
-    "Miami Dade College": "mdc",
-    "University of Memphis": "memphis",
-    "University of Miami": "miami",
-    "Miami University": "miamioh",
-    "Midwestern University - Glendale": "midwesternu",
-    "Millersville University of Pennsylvania": "millersville",
-    "Miracosta College": "miracosta",
-    "Molloy College": "molloy",
-    "Montana State University": "montanastate",
-    "Montclair State University": "montclair",
-    "Morehead State University": "moreheadstate",
-    "Morgan State University": "morgan",
-    "Mississippi State University": "msstate",
-    "Michigan State University": "msu",
-    "Northern Arizona University": "nau",
-    "North Carolina A & T State University": "ncat",
-    "New College of Florida": "ncf",
-    "North Dakota State University": "ndsu",
-    "Northeastern Illinois University": "neiu",
-    "Northeastern University": "neu",
-    "University of New Haven": "newhaven",
-    "The New School": "newschool",
-    "New Jersey Institute of Technology": "njit",
-    "New Mexico State University": "nmsu",
-    "Northwestern University": "northwestern",
-    "Nova Southeastern University": "nova",
-    "National University of Singapore": "nus",
-    "New York University Abu Dhabi": "nyuad",
-    "Oakland University": "oakland",
-    "Oglethorpe University": "oglethorpe",
-    "Oklahoma State University": "okstate",
-    "SUNY College at Oswego": "oswego",
-    "University of Oklahoma": "ou",
-    "Ohio Wesleyan University": "owu",
-    "Portland State University": "pdx",
-    "Pima County Community College District": "pima",
-    "University of Pittsburgh - Main Campus": "pitt2",
-    "Pittsburg State University": "pittstate",
-    "Point Park University": "pointpark",
-    "Portland Community College": "portlandcc",
-    "Pennsylvania State University System": "psu",
-    "Pennsylvania State University - Worthington Scranton": "psuscranton",
-    "Purdue University": "purdue",
-    "Prairie View A & M University": "pvamu",
-    "Quinnipiac University": "qu",
-    "Colorado State University": "ramlink",
-    "Rider University": "rider",
-    "Ringling College of Art and Design": "ringling",
-    "Rhode Island School of Design": "risd",
-    "Rosalind Franklin University of Medicine and Science": "rosalindfranklin",
-    "Rutgers, The State University of New Jersey - New Brunswick/Piscataway": "rutgers",
-    "Rutgers University-Newark": "rutgersnewark",
-    "School of the Art Institute of Chicago": "saic",
-    "Samuel Merritt University": "samuelmerritt",
-    "University of South Carolina - Columbia": "sc",
-    "Seattle University": "seattleu",
-    "Seminole State College of Florida": "seminolestate",
-    "Sewanee - The University of the South": "sewanee",
-    "San Francisco State University": "sfsu",
-    "Seton Hall University": "shu",
-    "Skidmore College": "skidmore",
-    "Saint Louis University-Main Campus": "slu",
-    "University of South Alabama": "southalabama",
-    "Southern Connecticut State University": "southernct",
-    "Slippery Rock University of Pennsylvania": "sru",
-    "Stetson University": "stetson",
-    "Stevens Institute of Technology": "stevens",
-    "St. Mary's University": "stmarytx",
-    "Stockton University": "stockton",
-    "Stony Brook University": "stonybrook",
-    "University of St. Thomas - Minnesota": "stthomas",
-    "Suffolk University": "suffolk",
-    "Saginaw Valley State University": "svsu",
-    "Texas A & M University - Corpus Christi": "tamucc",
-    "Texas A&M University - San Antonio": "tamusa",
-    "Tarleton State University": "tarleton",
-    "Southern Utah University": "tbirdconnection",
-    "Texas Christian University": "tcu",
-    "Texas Lutheran University": "texaslutheran",
-    "Towson University": "towson",
-    "Texas Tech University": "ttu",
-    "Texas Tech University Health Sciences Center": "ttuhsc",
-    "Tuskegee University": "tuskegee",
-    "The University of Alabama": "ua",
-    "University of Alabama at Birmingham": "uab",
-    "University of Cincinnati - Main Campus": "uc",
-    "University of Colorado Denver": "ucdenver",
-    "University of California - Riverside": "ucr",
-    "University of Delaware": "udel",
-    "University of Georgia": "uga",
-    "University of Houston": "uh",
-    "University of Idaho": "uidaho",
-    "University of Illinois Springfield": "uis",
-    "University of the Incarnate Word": "uiw",
-    "University of Kentucky": "uky",
-    "University of Massachusetts Amherst": "umassamherst",
-    "University of Massachusetts - Lowell": "umasslowellclubs",
-    "The University of Massachusetts Boston": "umb",
-    "University of Maryland - College Park": "umd",
-    "University of Michigan - Ann Arbor": "umich",
-    "The University of Montana": "umt",
-    "University of North Carolina - Chapel Hill": "unc",
-    "University of North Carolina at Asheville": "unca",
-    "University of North Carolina at Charlotte": "uncc",
-    "Fayetteville State University": "uncfsu",
-    "University of Northern Colorado": "unco",
-    "University of North Carolina - Wilmington": "uncw",
-    "University of Nebraska - Lincoln": "unl",
-    "University of Nevada - Las Vegas": "unlv",
-    "University of Nevada - Reno": "unr",
-    "University of North Texas": "unt",
-    "University of North Texas Health Science Center at Fort Worth": "unthsc",
-    "University of Rhode Island": "uri",
-    "University of South Dakota": "usd",
-    "The University of Tennessee - Chattanooga": "utc",
-    "The University of Texas at El Paso": "utep",
-    "University of Texas at Austin": "utexas",
-    "University of Tennessee - Knoxville": "utk",
-    "The University of Tennessee - Martin": "utm",
-    "The University of Texas at San Antonio": "utsa",
-    "The University of Texas at Tyler": "uttyler",
-    "Virginia Tech": "vt",
-    "Western Connecticut State University": "wcsu",
-    "Webster University": "webster",
-    "Wake Forest University": "wfu",
-    "Wheaton College (Massachusetts)": "wheaton",
-    "Wichita State University": "wichita",
-    "Wentworth Institute of Technology": "wit",
-    "Western Michigan University": "wmich",
-    "Worcester Polytechnic Institute": "wpi",
-    "William Paterson University of New Jersey": "wpunj",
-    "Wright State University": "wright",
-    "West Virginia University": "wvu",
-    "West Virginia Wesleyan College": "wvwc",
-    "Xavier University of Louisiana": "xula"
-}
+[
+    {
+        "uni": "aacc",
+        "name": "Anne Arundel Community College"
+    },
+    {
+        "uni": "albany",
+        "name": "University at Albany"
+    },
+    {
+        "uni": "albion",
+        "name": "Albion College"
+    },
+    {
+        "uni": "alfred",
+        "name": "Alfred University"
+    },
+    {
+        "uni": "american",
+        "name": "American University"
+    },
+    {
+        "uni": "amherst",
+        "name": "Amherst College"
+    },
+    {
+        "uni": "andrews",
+        "name": "Andrews University"
+    },
+    {
+        "uni": "appstate",
+        "name": "Appalachian State University"
+    },
+    {
+        "uni": "apsu",
+        "name": "Austin Peay State University"
+    },
+    {
+        "uni": "arizona",
+        "name": "University of Arizona"
+    },
+    {
+        "uni": "ashland",
+        "name": "Ashland University"
+    },
+    {
+        "uni": "asu",
+        "name": "Arizona State University"
+    },
+    {
+        "uni": "atsu",
+        "name": "A. T. Still University - Arizona"
+    },
+    {
+        "uni": "auburn",
+        "name": "Auburn University Main Campus"
+    },
+    {
+        "uni": "auckland",
+        "name": "The University of Auckland"
+    },
+    {
+        "uni": "augie",
+        "name": "Augustana University"
+    },
+    {
+        "uni": "augsburg",
+        "name": "Augsburg College"
+    },
+    {
+        "uni": "aurora",
+        "name": "Aurora University"
+    },
+    {
+        "uni": "avemarialaw",
+        "name": "Ave Maria School of Law"
+    },
+    {
+        "uni": "baylor",
+        "name": "Baylor University"
+    },
+    {
+        "uni": "bc",
+        "name": "Boston College"
+    },
+    {
+        "uni": "behrend",
+        "name": "Penn State Behrend"
+    },
+    {
+        "uni": "belmont",
+        "name": "Belmont University"
+    },
+    {
+        "uni": "bryant",
+        "name": "Bryant University"
+    },
+    {
+        "uni": "bu",
+        "name": "Boston University"
+    },
+    {
+        "uni": "bucknell",
+        "name": "Bucknell University"
+    },
+    {
+        "uni": "buffalo",
+        "name": "SUNY University at Buffalo"
+    },
+    {
+        "uni": "butte",
+        "name": "Butte College"
+    },
+    {
+        "uni": "calpolypomona",
+        "name": "California State Polytechnic University - Pomona"
+    },
+    {
+        "uni": "ccsu",
+        "name": "Central Connecticut State University"
+    },
+    {
+        "uni": "centenary",
+        "name": "Centenary College of Louisiana"
+    },
+    {
+        "uni": "cerritos",
+        "name": "Cerritos College"
+    },
+    {
+        "uni": "cgc",
+        "name": "Maricopa Community Colleges - Chandler-Gilbert Community College"
+    },
+    {
+        "uni": "clarke",
+        "name": "Clarke University"
+    },
+    {
+        "uni": "clarkson",
+        "name": "Clarkson University"
+    },
+    {
+        "uni": "clemson",
+        "name": "Clemson University"
+    },
+    {
+        "uni": "cnu",
+        "name": "Christopher Newport University"
+    },
+    {
+        "uni": "cobleskill",
+        "name": "SUNY College of Agriculture and Technology at Cobleskill"
+    },
+    {
+        "uni": "cofc",
+        "name": "College of Charleston"
+    },
+    {
+        "uni": "colgate",
+        "name": "Colgate University"
+    },
+    {
+        "uni": "collin",
+        "name": "Collin College"
+    },
+    {
+        "uni": "columbusstate",
+        "name": "Columbus State University"
+    },
+    {
+        "uni": "cortland",
+        "name": "SUNY Cortland"
+    },
+    {
+        "uni": "creighton",
+        "name": "Creighton University"
+    },
+    {
+        "uni": "csi",
+        "name": "CUNY College of Staten Island"
+    },
+    {
+        "uni": "csuchico",
+        "name": "California State University - Chico"
+    },
+    {
+        "uni": "csulb",
+        "name": "California State University - Long Beach"
+    },
+    {
+        "uni": "cunybrooklyn",
+        "name": "CUNY Brooklyn College"
+    },
+    {
+        "uni": "davidson",
+        "name": "Davidson College"
+    },
+    {
+        "uni": "depauw",
+        "name": "DePauw University"
+    },
+    {
+        "uni": "desales",
+        "name": "DeSales University"
+    },
+    {
+        "uni": "dickinson",
+        "name": "Dickinson College"
+    },
+    {
+        "uni": "duq",
+        "name": "Duquesne University"
+    },
+    {
+        "uni": "dvc",
+        "name": "Diablo Valley College"
+    },
+    {
+        "uni": "elmhurst",
+        "name": "Elmhurst College"
+    },
+    {
+        "uni": "elon",
+        "name": "Elon University"
+    },
+    {
+        "uni": "emory",
+        "name": "Emory University"
+    },
+    {
+        "uni": "etsu",
+        "name": "East Tennessee State University"
+    },
+    {
+        "uni": "fairfield",
+        "name": "Fairfield University"
+    },
+    {
+        "uni": "farmingdale",
+        "name": "SUNY at Farmingdale"
+    },
+    {
+        "uni": "fau",
+        "name": "Florida Atlantic University"
+    },
+    {
+        "uni": "fgcu",
+        "name": "Florida Gulf Coast University"
+    },
+    {
+        "uni": "fisherosu",
+        "name": "OSU Fisher College of Business"
+    },
+    {
+        "uni": "fitchburgstate",
+        "name": "Fitchburg State University"
+    },
+    {
+        "uni": "fitnyc",
+        "name": "Fashion Institute of Technology"
+    },
+    {
+        "uni": "fiu",
+        "name": "Florida International University"
+    },
+    {
+        "uni": "floridapoly",
+        "name": "Florida Polytechnic University"
+    },
+    {
+        "uni": "floridatech",
+        "name": "Florida Institute of Technology-Melbourne"
+    },
+    {
+        "uni": "flsouthern",
+        "name": "Florida Southern College"
+    },
+    {
+        "uni": "fsu",
+        "name": "Florida State University"
+    },
+    {
+        "uni": "furman",
+        "name": "Furman University"
+    },
+    {
+        "uni": "gatech",
+        "name": "Georgia Institute of Technology - Main Campus"
+    },
+    {
+        "uni": "gcsu",
+        "name": "Georgia College"
+    },
+    {
+        "uni": "germanna",
+        "name": "Germanna Community College"
+    },
+    {
+        "uni": "gonzaga",
+        "name": "Gonzaga University"
+    },
+    {
+        "uni": "grcc",
+        "name": "Grand Rapids Community College"
+    },
+    {
+        "uni": "gsd",
+        "name": "Harvard School of Design"
+    },
+    {
+        "uni": "gvsu",
+        "name": "Grand Valley State University"
+    },
+    {
+        "uni": "gwu",
+        "name": "George Washington University"
+    },
+    {
+        "uni": "hampshire",
+        "name": "Hampshire College"
+    },
+    {
+        "uni": "harvardgsas",
+        "name": "Harvard - Graduate School of Arts and Sciences"
+    },
+    {
+        "uni": "hbku",
+        "name": "Hamad Bin Khalifa University"
+    },
+    {
+        "uni": "heartland",
+        "name": "Heartland Community College"
+    },
+    {
+        "uni": "hks",
+        "name": "Harvard Kennedy School"
+    },
+    {
+        "uni": "hkust",
+        "name": "The Hong Kong University of Science and Technology"
+    },
+    {
+        "uni": "hood",
+        "name": "Hood College"
+    },
+    {
+        "uni": "howard",
+        "name": "Howard University"
+    },
+    {
+        "uni": "illinoisstate",
+        "name": "Illinois State University"
+    },
+    {
+        "uni": "indianatech",
+        "name": "Indiana Institute of Technology"
+    },
+    {
+        "uni": "ithaca",
+        "name": "Ithaca College"
+    },
+    {
+        "uni": "iue",
+        "name": "Indiana University East"
+    },
+    {
+        "uni": "iuk",
+        "name": "Indiana University Kokomo"
+    },
+    {
+        "uni": "iupui",
+        "name": "Indiana University-Purdue University Indianapolis"
+    },
+    {
+        "uni": "iusb",
+        "name": "Indiana University South Bend"
+    },
+    {
+        "uni": "jccc",
+        "name": "Johnson County Community College"
+    },
+    {
+        "uni": "knightconnect",
+        "name": "University of Central Florida"
+    },
+    {
+        "uni": "ku",
+        "name": "University of Kansas"
+    },
+    {
+        "uni": "kumc",
+        "name": "University of Kansas Medical Campus"
+    },
+    {
+        "uni": "kutztown",
+        "name": "Kutztown University of Pennsylvania"
+    },
+    {
+        "uni": "lakeforest",
+        "name": "Lake Forest College"
+    },
+    {
+        "uni": "lehigh",
+        "name": "Lehigh University"
+    },
+    {
+        "uni": "lehman",
+        "name": "CUNY Lehman College"
+    },
+    {
+        "uni": "logan",
+        "name": "Logan University"
+    },
+    {
+        "uni": "louisville",
+        "name": "University of Louisville"
+    },
+    {
+        "uni": "loyno",
+        "name": "Loyola University New Orleans"
+    },
+    {
+        "uni": "luc",
+        "name": "Loyola University of Chicago"
+    },
+    {
+        "uni": "maryville",
+        "name": "Maryville University of Saint Louis"
+    },
+    {
+        "uni": "matc",
+        "name": "Milwaukee Area Technical College"
+    },
+    {
+        "uni": "mavorgs",
+        "name": "The University of Texas at Arlington"
+    },
+    {
+        "uni": "mdc",
+        "name": "Miami Dade College"
+    },
+    {
+        "uni": "memphis",
+        "name": "University of Memphis"
+    },
+    {
+        "uni": "miami",
+        "name": "University of Miami"
+    },
+    {
+        "uni": "miamioh",
+        "name": "Miami University"
+    },
+    {
+        "uni": "midwesternu",
+        "name": "Midwestern University - Glendale"
+    },
+    {
+        "uni": "millersville",
+        "name": "Millersville University of Pennsylvania"
+    },
+    {
+        "uni": "miracosta",
+        "name": "Miracosta College"
+    },
+    {
+        "uni": "molloy",
+        "name": "Molloy College"
+    },
+    {
+        "uni": "montanastate",
+        "name": "Montana State University"
+    },
+    {
+        "uni": "montclair",
+        "name": "Montclair State University"
+    },
+    {
+        "uni": "moreheadstate",
+        "name": "Morehead State University"
+    },
+    {
+        "uni": "morgan",
+        "name": "Morgan State University"
+    },
+    {
+        "uni": "msstate",
+        "name": "Mississippi State University"
+    },
+    {
+        "uni": "msu",
+        "name": "Michigan State University"
+    },
+    {
+        "uni": "nau",
+        "name": "Northern Arizona University"
+    },
+    {
+        "uni": "ncat",
+        "name": "North Carolina A & T State University"
+    },
+    {
+        "uni": "ncf",
+        "name": "New College of Florida"
+    },
+    {
+        "uni": "ndsu",
+        "name": "North Dakota State University"
+    },
+    {
+        "uni": "neiu",
+        "name": "Northeastern Illinois University"
+    },
+    {
+        "uni": "neu",
+        "name": "Northeastern University"
+    },
+    {
+        "uni": "newhaven",
+        "name": "University of New Haven"
+    },
+    {
+        "uni": "newschool",
+        "name": "The New School"
+    },
+    {
+        "uni": "njit",
+        "name": "New Jersey Institute of Technology"
+    },
+    {
+        "uni": "nmsu",
+        "name": "New Mexico State University"
+    },
+    {
+        "uni": "northwestern",
+        "name": "Northwestern University"
+    },
+    {
+        "uni": "nova",
+        "name": "Nova Southeastern University"
+    },
+    {
+        "uni": "nus",
+        "name": "National University of Singapore"
+    },
+    {
+        "uni": "nyuad",
+        "name": "New York University Abu Dhabi"
+    },
+    {
+        "uni": "oakland",
+        "name": "Oakland University"
+    },
+    {
+        "uni": "oglethorpe",
+        "name": "Oglethorpe University"
+    },
+    {
+        "uni": "okstate",
+        "name": "Oklahoma State University"
+    },
+    {
+        "uni": "oswego",
+        "name": "SUNY College at Oswego"
+    },
+    {
+        "uni": "ou",
+        "name": "University of Oklahoma"
+    },
+    {
+        "uni": "owu",
+        "name": "Ohio Wesleyan University"
+    },
+    {
+        "uni": "pdx",
+        "name": "Portland State University"
+    },
+    {
+        "uni": "peaylink",
+        "name": "Austin Peay State University"
+    },
+    {
+        "uni": "pima",
+        "name": "Pima County Community College District"
+    },
+    {
+        "uni": "pitt2",
+        "name": "University of Pittsburgh - Main Campus"
+    },
+    {
+        "uni": "pittstate",
+        "name": "Pittsburg State University"
+    },
+    {
+        "uni": "pointpark",
+        "name": "Point Park University"
+    },
+    {
+        "uni": "portlandcc",
+        "name": "Portland Community College"
+    },
+    {
+        "uni": "psu",
+        "name": "Pennsylvania State University System"
+    },
+    {
+        "uni": "psuscranton",
+        "name": "Pennsylvania State University - Worthington Scranton"
+    },
+    {
+        "uni": "purdue",
+        "name": "Purdue University"
+    },
+    {
+        "uni": "pvamu",
+        "name": "Prairie View A & M University"
+    },
+    {
+        "uni": "qu",
+        "name": "Quinnipiac University"
+    },
+    {
+        "uni": "ramlink",
+        "name": "Colorado State University"
+    },
+    {
+        "uni": "rider",
+        "name": "Rider University"
+    },
+    {
+        "uni": "ringling",
+        "name": "Ringling College of Art and Design"
+    },
+    {
+        "uni": "risd",
+        "name": "Rhode Island School of Design"
+    },
+    {
+        "uni": "rosalindfranklin",
+        "name": "Rosalind Franklin University of Medicine and Science"
+    },
+    {
+        "uni": "rutgers",
+        "name": "Rutgers, The State University of New Jersey - New Brunswick/Piscataway"
+    },
+    {
+        "uni": "rutgersnewark",
+        "name": "Rutgers University-Newark"
+    },
+    {
+        "uni": "saic",
+        "name": "School of the Art Institute of Chicago"
+    },
+    {
+        "uni": "samuelmerritt",
+        "name": "Samuel Merritt University"
+    },
+    {
+        "uni": "sc",
+        "name": "University of South Carolina - Columbia"
+    },
+    {
+        "uni": "seattleu",
+        "name": "Seattle University"
+    },
+    {
+        "uni": "seminolestate",
+        "name": "Seminole State College of Florida"
+    },
+    {
+        "uni": "sewanee",
+        "name": "Sewanee - The University of the South"
+    },
+    {
+        "uni": "sfsu",
+        "name": "San Francisco State University"
+    },
+    {
+        "uni": "shu",
+        "name": "Seton Hall University"
+    },
+    {
+        "uni": "skidmore",
+        "name": "Skidmore College"
+    },
+    {
+        "uni": "slu",
+        "name": "Saint Louis University-Main Campus"
+    },
+    {
+        "uni": "southalabama",
+        "name": "University of South Alabama"
+    },
+    {
+        "uni": "southernct",
+        "name": "Southern Connecticut State University"
+    },
+    {
+        "uni": "sru",
+        "name": "Slippery Rock University of Pennsylvania"
+    },
+    {
+        "uni": "stetson",
+        "name": "Stetson University"
+    },
+    {
+        "uni": "stevens",
+        "name": "Stevens Institute of Technology"
+    },
+    {
+        "uni": "stmarytx",
+        "name": "St. Mary's University"
+    },
+    {
+        "uni": "stockton",
+        "name": "Stockton University"
+    },
+    {
+        "uni": "stonybrook",
+        "name": "Stony Brook University"
+    },
+    {
+        "uni": "stthomas",
+        "name": "University of St. Thomas - Minnesota"
+    },
+    {
+        "uni": "suffolk",
+        "name": "Suffolk University"
+    },
+    {
+        "uni": "svsu",
+        "name": "Saginaw Valley State University"
+    },
+    {
+        "uni": "tamucc",
+        "name": "Texas A & M University - Corpus Christi"
+    },
+    {
+        "uni": "tamusa",
+        "name": "Texas A&M University - San Antonio"
+    },
+    {
+        "uni": "tarleton",
+        "name": "Tarleton State University"
+    },
+    {
+        "uni": "tbirdconnection",
+        "name": "Southern Utah University"
+    },
+    {
+        "uni": "tcu",
+        "name": "Texas Christian University"
+    },
+    {
+        "uni": "texaslutheran",
+        "name": "Texas Lutheran University"
+    },
+    {
+        "uni": "towson",
+        "name": "Towson University"
+    },
+    {
+        "uni": "ttu",
+        "name": "Texas Tech University"
+    },
+    {
+        "uni": "ttuhsc",
+        "name": "Texas Tech University Health Sciences Center"
+    },
+    {
+        "uni": "tuskegee",
+        "name": "Tuskegee University"
+    },
+    {
+        "uni": "ua",
+        "name": "The University of Alabama"
+    },
+    {
+        "uni": "uab",
+        "name": "University of Alabama at Birmingham"
+    },
+    {
+        "uni": "uc",
+        "name": "University of Cincinnati - Main Campus"
+    },
+    {
+        "uni": "ucdenver",
+        "name": "University of Colorado Denver"
+    },
+    {
+        "uni": "ucr",
+        "name": "University of California - Riverside"
+    },
+    {
+        "uni": "udel",
+        "name": "University of Delaware"
+    },
+    {
+        "uni": "uga",
+        "name": "University of Georgia"
+    },
+    {
+        "uni": "uh",
+        "name": "University of Houston"
+    },
+    {
+        "uni": "uidaho",
+        "name": "University of Idaho"
+    },
+    {
+        "uni": "uis",
+        "name": "University of Illinois Springfield"
+    },
+    {
+        "uni": "uiw",
+        "name": "University of the Incarnate Word"
+    },
+    {
+        "uni": "uky",
+        "name": "University of Kentucky"
+    },
+    {
+        "uni": "umassamherst",
+        "name": "University of Massachusetts Amherst"
+    },
+    {
+        "uni": "umasslowellclubs",
+        "name": "University of Massachusetts - Lowell"
+    },
+    {
+        "uni": "umb",
+        "name": "The University of Massachusetts Boston"
+    },
+    {
+        "uni": "umd",
+        "name": "University of Maryland - College Park"
+    },
+    {
+        "uni": "umich",
+        "name": "University of Michigan - Ann Arbor"
+    },
+    {
+        "uni": "umt",
+        "name": "The University of Montana"
+    },
+    {
+        "uni": "unc",
+        "name": "University of North Carolina - Chapel Hill"
+    },
+    {
+        "uni": "unca",
+        "name": "University of North Carolina at Asheville"
+    },
+    {
+        "uni": "uncc",
+        "name": "University of North Carolina at Charlotte"
+    },
+    {
+        "uni": "uncfsu",
+        "name": "Fayetteville State University"
+    },
+    {
+        "uni": "unco",
+        "name": "University of Northern Colorado"
+    },
+    {
+        "uni": "uncw",
+        "name": "University of North Carolina - Wilmington"
+    },
+    {
+        "uni": "unl",
+        "name": "University of Nebraska - Lincoln"
+    },
+    {
+        "uni": "unlv",
+        "name": "University of Nevada - Las Vegas"
+    },
+    {
+        "uni": "unr",
+        "name": "University of Nevada - Reno"
+    },
+    {
+        "uni": "unt",
+        "name": "University of North Texas"
+    },
+    {
+        "uni": "unthsc",
+        "name": "University of North Texas Health Science Center at Fort Worth"
+    },
+    {
+        "uni": "uri",
+        "name": "University of Rhode Island"
+    },
+    {
+        "uni": "usd",
+        "name": "University of South Dakota"
+    },
+    {
+        "uni": "utc",
+        "name": "The University of Tennessee - Chattanooga"
+    },
+    {
+        "uni": "utep",
+        "name": "The University of Texas at El Paso"
+    },
+    {
+        "uni": "utexas",
+        "name": "University of Texas at Austin"
+    },
+    {
+        "uni": "utk",
+        "name": "University of Tennessee - Knoxville"
+    },
+    {
+        "uni": "utm",
+        "name": "The University of Tennessee - Martin"
+    },
+    {
+        "uni": "utsa",
+        "name": "The University of Texas at San Antonio"
+    },
+    {
+        "uni": "uttyler",
+        "name": "The University of Texas at Tyler"
+    },
+    {
+        "uni": "vt",
+        "name": "Virginia Tech"
+    },
+    {
+        "uni": "wcsu",
+        "name": "Western Connecticut State University"
+    },
+    {
+        "uni": "webster",
+        "name": "Webster University"
+    },
+    {
+        "uni": "wfu",
+        "name": "Wake Forest University"
+    },
+    {
+        "uni": "wheaton",
+        "name": "Wheaton College (Massachusetts)"
+    },
+    {
+        "uni": "wichita",
+        "name": "Wichita State University"
+    },
+    {
+        "uni": "wit",
+        "name": "Wentworth Institute of Technology"
+    },
+    {
+        "uni": "wmich",
+        "name": "Western Michigan University"
+    },
+    {
+        "uni": "wpi",
+        "name": "Worcester Polytechnic Institute"
+    },
+    {
+        "uni": "wpunj",
+        "name": "William Paterson University of New Jersey"
+    },
+    {
+        "uni": "wright",
+        "name": "Wright State University"
+    },
+    {
+        "uni": "wvu",
+        "name": "West Virginia University"
+    },
+    {
+        "uni": "wvwc",
+        "name": "West Virginia Wesleyan College"
+    },
+    {
+        "uni": "xula",
+        "name": "Xavier University of Louisiana"
+    }
+]

@@ -41,22 +41,26 @@
 }
 
 .dropdown{
+  margin-bottom: 700px;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 50px;
+  align-items: left ;
+}
+
+.uni_input {
+  height: 25px;
+  padding: 5px 200px;
+}
+
+.absolute {
+  height: 30px;
+  overflow-y: auto;
   color: black;
-  margin-bottom: 100px;
-  margin-left: 25%;
-  margin-right: 25%;
-  height: 100px;
+  cursor: pointer;
+  
 }
 
-.dropdown .dropdown-btn {
-  padding: 30px 0px;
-  background: black;
-
-  font-weight: bold;
-  color: white;
-  align-items: center;
-
-}
 
 
 
