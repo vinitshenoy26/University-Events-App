@@ -27,7 +27,7 @@ def htmlparser(input: str) -> str:
     return soup
 
 today = get_time()
-university_name = 'nyu'
+university_name = 'rutgers'
 
 url = f"https://{university_name}.campuslabs.com/engage/api/discovery/event/search?endsAfter={today}&orderByField=endsOn&orderByDirection=ascending&status=Approved&take=1000"
 response = requests.request("GET", url,).json()
@@ -45,12 +45,12 @@ default_background = "https://via.placeholder.com/400"
 df["imagePath"] = [default_background if img is None else f"https://se-images.campuslabs.com/clink/images/{str(img)}" for img in df["imagePath"]]
 
 
-with open("src/data/data.json", "w") as file:
+with open("src/assets/data.json", "w") as file:
     unformatted = json.loads(df.to_json(orient="table"))
     json.dump(unformatted, file, indent=4, sort_keys=True)
 
 
-with open('all_universities.txt', 'r') as file:
+with open('src/assets/all_universities.txt', 'r') as file:
     for line in file:
         newlist.append(line.strip())
 
@@ -68,7 +68,7 @@ for uni in tqdm(newlist):
         print(uni + " not found in JavaScript code.")
 
 
-with open('./src/data/uni_abbr.json', "w") as json_file:
+with open('./src/assets/uni_abbr.json', "w") as json_file:
     json.dump(university_abbr_name, json_file, indent=4)
 
 

@@ -1,6 +1,6 @@
 import './App.css';
-import events_list from './data/data.json'
-import uni_abbr from './data/uni_abbr.json'
+import events_list from './assets/data.json'
+import uni_abbr from './assets/uni_abbr.json'
 import EventCard from './components/EventCard';
 import SearchBar from './components/SearchBar';
 
