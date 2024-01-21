@@ -3,8 +3,15 @@ import SearchIcon from './searchicon.png'
 
 
 
-const SearchBar = ( {placeholder, data} ) => {
+const SearchBar = ( {placeholder, data, onUniversityClick} ) => {
 
+    
+    const handleUniversityClick = (abbreviation) => {
+
+        if (onUniversityClick) {
+            onUniversityClick(abbreviation);
+          }
+        };
    
     const [filteredData, setFilteredData] = useState([]);
     const handleFilter = (event) => {
@@ -27,7 +34,9 @@ const SearchBar = ( {placeholder, data} ) => {
             <div className='dataResult'>
                 {filteredData.map((value, key) => {
                     return (
-                    <button className='dataItem'>
+                    <button className='dataItem' 
+                            key={key}
+                            onClick={() => handleUniversityClick(value.uni)}>
                         <p>{value.name}</p>
                         
                     </button>

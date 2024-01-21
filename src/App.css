@@ -48,10 +48,7 @@
   align-items: center ;
 }
 
-.uni_input {
-  height: 25px;
-  padding: 5px 200px;
-}
+
 
 
 
@@ -116,23 +113,10 @@
   color: black;
 }
 
-a:hover {
-  background-color: lightgrey;
-}
-
-#clearBtn {
-  cursor: pointer;
-}
 
 
 
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
